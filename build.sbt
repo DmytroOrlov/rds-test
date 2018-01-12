@@ -13,7 +13,7 @@ lazy val `rds-test` = (project in file("."))
       "org.postgresql" % "postgresql" % "42.1.4",
       "com.h2database" % "h2" % "1.4.196",
 
-      "org.scalatest" %% "scalatest" % "3.0.4" % Test,
+      "org.scalatest" %% "scalatest" % "3.2.0-SNAP9" % Test,
       "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test,
       "org.scalacheck" %% "scalacheck" % "1.13.5" % Test,
       "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % Test,
