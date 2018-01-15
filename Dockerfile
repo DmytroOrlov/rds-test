@@ -1,4 +1,4 @@
-# docker build -t rdstest_web-app .
+# docker build -t rdstest_api .
 FROM dmytroorlov/jdk
 
 HEALTHCHECK --interval=5s --timeout=2s --retries=2 \
