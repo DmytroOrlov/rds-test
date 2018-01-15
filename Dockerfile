@@ -1,8 +1,8 @@
 # docker build -t rdstest_web-app .
 FROM dmytroorlov/jdk
 
-HEALTHCHECK --interval=10s --timeout=1s --retries=3 \
-  CMD curl --silent --fail http://localhost:9000/health
+HEALTHCHECK --interval=5s --timeout=2s --retries=2 \
+  CMD curl --silent --fail http://localhost:9000/health || exit 1
 
 WORKDIR /root
 
