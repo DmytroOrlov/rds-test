@@ -8,7 +8,7 @@ lazy val `rds-test` = (project in file("."))
     libraryDependencies ++= Seq(
       guice,
       "com.typesafe.scala-logging" %% "scala-logging" % "3.8.0",
-      "io.monix" %% "monix" % "2.3.2",
+      "io.monix" %% "monix" % "3.0.0-RC1",
       "com.typesafe.play" %% "play-slick" % playSlickV,
       "com.typesafe.play" %% "play-slick-evolutions" % playSlickV,
       "org.postgresql" % "postgresql" % "42.2.0",
