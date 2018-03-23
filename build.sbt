@@ -4,7 +4,7 @@ lazy val `rds-test` = (project in file("."))
   .enablePlugins(PlayScala)
   .settings(
     version := "1.0-SNAPSHOT",
-    scalaVersion := "2.12.4",
+    scalaVersion := "2.12.5",
     libraryDependencies ++= Seq(
       guice,
       "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2",
