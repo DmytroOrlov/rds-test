@@ -11,7 +11,7 @@ lazy val `rds-test` = (project in file("."))
       "io.monix" %% "monix" % "3.0.0-RC1",
       "com.typesafe.play" %% "play-slick" % playSlickV,
       "com.typesafe.play" %% "play-slick-evolutions" % playSlickV,
-      "org.postgresql" % "postgresql" % "42.2.0",
+      "org.postgresql" % "postgresql" % "42.2.2",
       "com.h2database" % "h2" % "1.4.196",
 
       "org.scalatest" %% "scalatest" % "3.2.0-SNAP9" % Test,
