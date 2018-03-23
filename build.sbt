@@ -12,7 +12,7 @@ lazy val `rds-test` = (project in file("."))
       "com.typesafe.play" %% "play-slick" % playSlickV,
       "com.typesafe.play" %% "play-slick-evolutions" % playSlickV,
       "org.postgresql" % "postgresql" % "42.2.2",
-      "com.h2database" % "h2" % "1.4.196",
+      "com.h2database" % "h2" % "1.4.197",
 
       "org.scalatest" %% "scalatest" % "3.2.0-SNAP9" % Test,
       "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test,
